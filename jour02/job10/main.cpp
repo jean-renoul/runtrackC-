@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 main (){
     int nombre;
@@ -9,7 +10,7 @@ main (){
         std::cin >> nombre;
 
         if (nombre > 0){
-            resultat = (nombre * nombre);
+            resultat = (sqrt(nombre));
             std::cout << "La racine carree de " << nombre << " est " << resultat << "\n";
         }
         else {
