@@ -10,20 +10,6 @@ int main () {
     std::sort(T1, T1 + n1);
     std::sort(T2, T2 + n2);
 
-    for (int i = 0; i < n1; ++i)
-    {
-        std::cout << T1[i] << " ";
-    }
-
-    std::cout << std::endl;
-
-    for (int i = 0; i < n2; ++i)
-    {
-        std::cout << T2[i] << " ";
-    }
-
-    std::cout << std::endl;
-
     int T3[n1 + n2];
     int index = 0;
 
